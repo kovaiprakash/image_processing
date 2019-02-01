@@ -1,0 +1,1 @@
+g++ main.cpp rgb_to_hsi.cpp kmeans.cpp feature_extraction.cpp svm_classifier.cpp -o main `pkg-config --libs --cflags opencv`
